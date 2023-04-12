@@ -1,0 +1,25 @@
+﻿<Application x:Class="Exam.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Exam"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <SolidColorBrush x:Key="MainColor"
+                         Color="White" />
+        <SolidColorBrush x:Key="SecondColor"
+                         Color="#FFE9F9" />
+        <SolidColorBrush x:Key="AccentColor"
+                         Color="#DD99FF" />
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily"
+                    Value="Comic Sans MS" />
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily"
+                    Value="Comic Sans MS" />
+        </Style>
+    </Application.Resources>
+</Application>
